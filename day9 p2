@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int a, b;
+
+    // Input two integers
+    scanf("%d", &a);
+    scanf("%d", &b);
+
+    // Perform and display arithmetic operations
+    printf("%d\n", a + b);  // Addition
+    printf("%d\n", a - b);  // Subtraction
+    printf("%d\n", a * b);  // Multiplication
+    printf("%d\n", a / b);  // Division
+    printf("%d\n", a % b);  // Modulo
+
+    return 0;
+}
